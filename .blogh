@@ -1,0 +1,15 @@
+{
+    "template": "blogh-template-fastr",
+    "user": "parro-it",
+    "repo": "www.parro.it",
+    "blog": {
+        "lang": "en",
+        "headline": "Parroit javascript blog",
+        "headerImage": "http://www.gravatar.com/avatar/9f0cc2e0e8d0968ba143150eb6a5a2e6.png",
+        "baseUrl": "http://localhost:3000",
+        "about": {
+          "description": "A blog about javascript awesomeness"
+        }
+    }
+
+}
