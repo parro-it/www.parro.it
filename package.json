@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"no test defined\"",
-    "start": "node node_modules/blogh/dist/server.js"
+    "start": "blogh"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/parro-it/www.parro.it",
   "dependencies": {
-    "blogh": "^0.6.0"
+    "blogh": "^0.8.3"
   }
 }
