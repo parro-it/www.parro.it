@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/parro-it/www.parro.it",
   "dependencies": {
-    "blogh": "^0.1.0"
+    "blogh": "^0.2.0"
   }
 }
