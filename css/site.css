@@ -1,0 +1,104 @@
+@import "marx.min.css";
+@import "parrot-css-palette.css";
+
+h1 {
+  color: var(--gray1);
+}
+
+nav a {
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+footer {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: var(--dim-yellow);
+}
+
+body {
+  text-align: center;
+  background: var(--bright-yellow);
+  color: var(--color1);
+  font-family: "Merriweather", serif;
+  font-size: 120%;
+  font-weight: 400;
+}
+
+main {
+  min-width: 960px;
+  max-width: inherit;
+}
+a,
+a:visited {
+  color: var(--bright-blue);
+  transition: color 200ms linear;
+}
+
+a:hover {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+article header {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+main > article > p {
+  margin-bottom: 60px;
+}
+
+main > article p {
+  margin-bottom: 0px;
+}
+
+article section {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.profiles img,
+.langs img {
+  width: 64px;
+}
+
+img#avatar {
+  width: 90px;
+}
+
+.langs ul {
+  margin-bottom: 60px;
+}
+
+.profiles li {
+  width: 240px;
+}
+
+.langs li {
+  width: 70px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.langs li,
+.profiles li {
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  width: 70px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.mypicture img {
+  border-radius: 150px;
+  box-shadow: 3px 3px 13px var(--gray2);
+}

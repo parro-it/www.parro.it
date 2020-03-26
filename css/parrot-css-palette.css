@@ -1,0 +1,147 @@
+:root {
+
+
+  --delta-sat: -20%;
+  --delta-lig: 25%;
+
+  --red:       hsl(0,   calc(100% + var(--delta-sat)), calc(50% + var(--delta-lig)));
+  --orange:    hsl(40,  calc(75%  + var(--delta-sat)), calc(50% + var(--delta-lig)));
+  --yellow:    hsl(60,  calc(75%  + var(--delta-sat)), calc(50% + var(--delta-lig)));
+  --green:     hsl(120, calc(100% + var(--delta-sat)), calc(25% + var(--delta-lig) * 1.5));
+  --cyan:      hsl(180, calc(100% + var(--delta-sat)), calc(50% + var(--delta-lig)));
+  --blue:      hsl(230, calc(100% + var(--delta-sat) / 2), calc(50% + var(--delta-lig) / 1.3));
+  --magenta:   hsl(310, calc(75%  + var(--delta-sat)), calc(50% + var(--delta-lig)));
+
+  --bright-delta-lig: calc(var(--delta-lig) + 10%);
+  --bright-red:       hsl(0,   calc(100% + var(--delta-sat)), calc(50% + var(--bright-delta-lig)));
+  --bright-orange:    hsl(40,  calc(75%  + var(--delta-sat)), calc(50% + var(--bright-delta-lig)));
+  --bright-yellow:    hsl(60,  calc(75%  + var(--delta-sat)), calc(50% + var(--bright-delta-lig)));
+  --bright-green:     hsl(120, calc(100% + var(--delta-sat)), calc(25% + var(--bright-delta-lig) * 1.5));
+  --bright-cyan:      hsl(180, calc(100% + var(--delta-sat)), calc(50% + var(--bright-delta-lig)));
+  --bright-blue:      hsl(230, calc(100% + var(--delta-sat) / 2), calc(50% + var(--bright-delta-lig) / 1.3));
+  --bright-magenta:   hsl(310, calc(75%  + var(--delta-sat)), calc(50% + var(--bright-delta-lig)));
+
+  --dim-delta-sat:    calc(var(--delta-sat) - 50%);
+  --dim-red:          hsl(0,   calc(100% + var(--dim-delta-sat)), calc(50% + var(--delta-lig)));
+  --dim-orange:       hsl(40,  calc(75%  + var(--dim-delta-sat)), calc(50% + var(--delta-lig)));
+  --dim-yellow:       hsl(60,  calc(75%  + var(--dim-delta-sat)), calc(50% + var(--delta-lig)));
+  --dim-green:        hsl(120, calc(100% + var(--dim-delta-sat)), calc(25% + var(--delta-lig) * 1.5));
+  --dim-cyan:         hsl(180, calc(100% + var(--dim-delta-sat)), calc(50% + var(--delta-lig)));
+  --dim-blue:         hsl(230, calc(100% + var(--dim-delta-sat) / 2), calc(50% + var(--delta-lig) / 1.3));
+  --dim-magenta:      hsl(310, calc(75%  + var(--dim-delta-sat)), calc(50% + var(--delta-lig)));
+
+  --black:   hsl(310, 30%, 15%);
+  --gray1:   hsl(310, 20%, 25%);
+  --gray2:   hsl(310, 10%, 35%);
+  --white:   hsl(310, 30%, 85%);
+  --bright-black: hsl(310, calc(30% + var(--delta-sat)), calc(15% + var(--bright-delta-lig)));
+  --bright-white:   hsl(310, calc(30% + var(--delta-sat)), calc(85% + var(--bright-delta-lig)));
+  --dim-black: hsl(310, calc(30%  + var(--dim-delta-sat)), calc(15% + var(--delta-lig)));
+  --dim-white: hsl(310, calc(30%  + var(--dim-delta-sat)), calc(85% + var(--delta-lig)));
+
+}
+
+.black {
+  background-color: var(--black);
+}
+.red {
+  background-color: var(--red);
+}
+.green {
+  background-color: var(--green);
+}
+.yellow {
+  background-color: var(--yellow);
+}
+.blue {
+  background-color: var(--blue);
+}
+.magenta {
+  background-color: var(--magenta);
+}
+.cyan {
+  background-color: var(--cyan);
+}
+.white {
+  background-color: var(--white);
+}
+.bright-black {
+  background-color: var(--bright-black);
+}
+.bright-red {
+  background-color: var(--bright-red);
+}
+.bright-green {
+  background-color: var(--bright-green);
+}
+.bright-yellow {
+  background-color: var(--bright-yellow);
+}
+.bright-blue {
+  background-color: var(--bright-blue);
+}
+.bright-magenta {
+  background-color: var(--bright-magenta);
+}
+.bright-cyan {
+  background-color: var(--bright-cyan);
+}
+.bright-white {
+  background-color: var(--bright-white);
+}
+.dim-black {
+  background-color: var(--dim-black);
+}
+.dim-red {
+  background-color: var(--dim-red);
+}
+.dim-green {
+  background-color: var(--dim-green);
+}
+.dim-yellow {
+  background-color: var(--dim-yellow);
+}
+.dim-blue {
+  background-color: var(--dim-blue);
+}
+.dim-magenta {
+  background-color: var(--dim-magenta);
+}
+.dim-cyan {
+  background-color: var(--dim-cyan);
+}
+.dim-white {
+  background-color: var(--dim-white);
+}
+.orange {
+  background-color: var(--orange);
+}
+.dim-orange {
+  background-color: var(--dim-orange);
+}
+
+.bright-orange {
+  background-color: var(--bright-orange);
+}
+
+.pink {
+  background-color: var(--pink);
+}
+.dim-pink {
+  background-color: var(--dim-pink);
+}
+
+.bright-pink {
+  background-color: var(--bright-pink);
+}
+
+.cyan-blue {
+  background-color: var(--cyan-blue);
+}
+.dim-cyan-blue {
+  background-color: var(--dim-cyan-blue);
+}
+
+.bright-cyan-blue {
+  background-color: var(--bright-cyan-blue);
+}
